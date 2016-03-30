@@ -1,0 +1,217 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "picons-social-icons";
+  src:url("fonts/picons-social-icons.eot");
+  src:url("fonts/picons-social-icons.eot?#iefix") format("embedded-opentype"),
+    url("fonts/picons-social-icons.woff") format("woff"),
+    url("fonts/picons-social-icons.ttf") format("truetype"),
+    url("fonts/picons-social-icons.svg#picons-social-icons") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "picons-social-icons" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="social-icon-"]:before,
+[class*=" social-icon-"]:before {
+  font-family: "picons-social-icons" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.social-icon-01-forrst:before {
+  content: "\61";
+}
+.social-icon-02-dribbble:before {
+  content: "\62";
+}
+.social-icon-04-flickr:before {
+  content: "\63";
+}
+.social-icon-05-twitter:before {
+  content: "\64";
+}
+.social-icon-06-facebook:before {
+  content: "\65";
+}
+.social-icon-07-skype:before {
+  content: "\66";
+}
+.social-icon-08-digg:before {
+  content: "\67";
+}
+.social-icon-09-google:before {
+  content: "\68";
+}
+.social-icon-10-html5:before {
+  content: "\69";
+}
+.social-icon-11-linkedin:before {
+  content: "\6a";
+}
+.social-icon-12-lastfm:before {
+  content: "\6b";
+}
+.social-icon-13-vimeo:before {
+  content: "\6c";
+}
+.social-icon-14-yahoo:before {
+  content: "\6d";
+}
+.social-icon-15-tumblr:before {
+  content: "\6e";
+}
+.social-icon-16-apple:before {
+  content: "\6f";
+}
+.social-icon-17-windows:before {
+  content: "\70";
+}
+.social-icon-18-youtube:before {
+  content: "\71";
+}
+.social-icon-19-delicious:before {
+  content: "\72";
+}
+.social-icon-20-rss:before {
+  content: "\73";
+}
+.social-icon-21-picasa:before {
+  content: "\74";
+}
+.social-icon-22-deviantart:before {
+  content: "\75";
+}
+.social-icon-23-whatsapp:before {
+  content: "\76";
+}
+.social-icon-24-snapchat:before {
+  content: "\77";
+}
+.social-icon-25-blogger:before {
+  content: "\78";
+}
+.social-icon-26-wordpress:before {
+  content: "\79";
+}
+.social-icon-27-amazon:before {
+  content: "\7a";
+}
+.social-icon-28-appstore:before {
+  content: "\41";
+}
+.social-icon-29-paypal:before {
+  content: "\42";
+}
+.social-icon-30-myspace:before {
+  content: "\43";
+}
+.social-icon-31-dropbox:before {
+  content: "\44";
+}
+.social-icon-32-windows8:before {
+  content: "\45";
+}
+.social-icon-33-pinterest:before {
+  content: "\46";
+}
+.social-icon-34-soundcloud:before {
+  content: "\47";
+}
+.social-icon-35-google-drive:before {
+  content: "\48";
+}
+.social-icon-36-android:before {
+  content: "\49";
+}
+.social-icon-37-behance:before {
+  content: "\4a";
+}
+.social-icon-38-instagram:before {
+  content: "\4b";
+}
+.social-icon-39-ebay:before {
+  content: "\4c";
+}
+.social-icon-40-google-plus:before {
+  content: "\4d";
+}
+.social-icon-41-github:before {
+  content: "\4e";
+}
+.social-icon-42-stackoverflow:before {
+  content: "\4f";
+}
+.social-icon-43-spotify:before {
+  content: "\50";
+}
+.social-icon-44-stumbleupon:before {
+  content: "\51";
+}
+.social-icon-45-visa:before {
+  content: "\52";
+}
+.social-icon-46-mastercard:before {
+  content: "\53";
+}
+.social-icon-47-amex:before {
+  content: "\54";
+}
+.social-icon-48-ios:before {
+  content: "\55";
+}
+.social-icon-49-osx:before {
+  content: "\56";
+}
+.social-icon-50-evernote:before {
+  content: "\57";
+}
+.social-icon-51-yelp:before {
+  content: "\58";
+}
+.social-icon-52-yelp:before {
+  content: "\59";
+}
+.social-icon-53-medium:before {
+  content: "\5a";
+}
+.social-icon-54-slack:before {
+  content: "\30";
+}
+.social-icon-55-vine:before {
+  content: "\31";
+}
+.social-icon-56-edge:before {
+  content: "\32";
+}
+.social-icon-57-outlook:before {
+  content: "\33";
+}
+.social-icon-58-pencilcase:before {
+  content: "\34";
+}
+.social-icon-59-play:before {
+  content: "\35";
+}
+.social-icon-60-icloud:before {
+  content: "\36";
+}

@@ -1,0 +1,2307 @@
+/*------------------------------------------------------------------
+[Table of contents]
+
+B. Menu
+	
+1. Reset 
+2. Meta Bar
+3. Top Bar
+4. Header Elements
+5. Header Types -
+6. Navigation Types -
+7. Submenu Types
+8. Megamenu Types
+9. Title Types -
+10. Title Variant
+11. Breadcrumb Variant
+12. Sidebar -
+13. Widgets
+14. Footer
+15. Front Blog
+16. Blog Post
+17. Portfolio Post
+18. Team Post
+19. Shop
+20. Product Post
+21. Shop Cart
+22. Shop Checkout
+23. Service Post
+24. 404 Page
+25. Search Page -
+27. Sticky Navigation -
+28. Back To Top
+29. Header Background -
+
+
+1. Form Elements
+2. Buttons
+3. Social Media
+4. Blockquote
+5. Tables
+6. Divider -
+7. Headings
+8. Blog Container
+9. Testimonial
+10. Frames
+11. Portfolio Element
+12. Team Element
+13. Progress Bar
+14. Tabs
+15. Tour
+16. Bulleted List
+17. Media Element
+18. Highlight Heading
+19. Tooltip
+20. Boxed Elements
+21. Accordion
+22. Message Box -
+23. Grid Element
+24. Logo Element
+25. Loop Elements
+26. Counter
+27. Percentage Counter
+28. Google Map -
+29. Callout Container
+30. Price Table
+31. Call To Action
+32. Dropcap Element
+33. Icon Button
+34. Image Frame
+
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+B. Menu
+-------------------------------------------------------------------*/
+.wsmenu-submenu li a span .iconAnimArrow{
+	-webkit-transition: right 200ms ease-in-out, left 200ms ease-in-out;
+	-moz-transition: right 200ms ease-in-out, left 200ms ease-in-out;
+	-ms-transition: right 200ms ease-in-out, left 200ms ease-in-out;
+	-o-transition: right 200ms ease-in-out, left 200ms ease-in-out;
+	transition: right 200ms ease-in-out, left 200ms ease-in-out;
+}
+.iconItem{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+.iconArrow{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+.disbale-sticky-transition .iconItem{
+	-webkit-transition: all 0ms ease-in-out;
+	-moz-transition: all 0ms ease-in-out;
+	-ms-transition: all 0ms ease-in-out;
+	-o-transition: all 0ms ease-in-out;
+	transition: all 0ms ease-in-out;
+}
+.disbale-sticky-transition .iconArrow{
+	-webkit-transition: all 0ms ease-in-out;
+	-moz-transition: all 0ms ease-in-out;
+	-ms-transition: all 0ms ease-in-out;
+	-o-transition: all 0ms ease-in-out;
+	transition: all 0ms ease-in-out;
+}
+
+/*------------------------------------------------------------------
+1. Reset
+-------------------------------------------------------------------*/
+a{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+
+/*------------------------------------------------------------------
+2. Meta Bar
+-------------------------------------------------------------------*/
+.meta-bar .nav-container li a{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+.meta-bar .social-icons-container .icon{
+	-webkit-transition: all 200ms ease-in-out;
+	-moz-transition: all 200ms ease-in-out;
+	-ms-transition: all 200ms ease-in-out;
+	-o-transition: all 200ms ease-in-out;
+	transition: all 200ms ease-in-out;
+}
+.meta-bar .social-icons-container .icon .tooltip-container{
+	-webkit-transition: all 0.25s ease-out;
+	-moz-transition: all 0.25s ease-out;
+	-ms-transition: all 0.25s ease-out;
+	-o-transition: all 0.25s ease-out;
+	transition: all 0.25s ease-out;
+}
+.meta-bar .wpml-container li a{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+
+/*------------------------------------------------------------------
+3. Top Bar
+-------------------------------------------------------------------*/
+.top-bar .top-bar-nav ul li a{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;	
+}
+.top-bar .top-bar-nav ul li a i{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+.top-bar .top-bar-nav.icon-style-2 ul li a i{
+	-webkit-transition: background 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out;
+}
+
+.top-bar .top-bar-nav.icon-style-2 ul li a i:after{
+	-webkit-transition: all 200ms ease-in-out;
+	-moz-transition: all 200ms ease-in-out;
+	-ms-transition: all 200ms ease-in-out;
+	-o-transition: all 200ms ease-in-out;
+	transition: all 200ms ease-in-out;
+}
+.top-bar .social-icons-container .icon{
+	-webkit-transition: all 200ms ease-in-out;
+	-moz-transition: all 200ms ease-in-out;
+	-ms-transition: all 200ms ease-in-out;
+	-o-transition: all 200ms ease-in-out;
+	transition: all 200ms ease-in-out;
+}
+.top-bar .social-icons-container .icon .tooltip-container{
+	-webkit-transition: all 0.25s ease-out;
+	-moz-transition: all 0.25s ease-out;
+	-ms-transition: all 0.25s ease-out;
+	-o-transition: all 0.25s ease-out;
+	transition: all 0.25s ease-out;
+}
+.top-bar .wpml-container li a{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;	
+}
+
+/*------------------------------------------------------------------
+4. Header Elements
+-------------------------------------------------------------------*/
+
+form.header-search-form input.search{
+    -webkit-transition: width 0.5s ease-in-out, padding 0.5s ease-in-out, background 200ms ease-in-out, border 200ms ease-in-out;
+    -moz-transition: width 0.5s ease-in-out, padding 0.5s ease-in-out, background 200ms ease-in-out, border 200ms ease-in-out;
+    -ms-transition: width 0.5s ease-in-out, padding 0.5s ease-in-out, background 200ms ease-in-out, border 200ms ease-in-out;
+    -o-transition: width 0.5s ease-in-out, padding 0.5s ease-in-out, background 200ms ease-in-out, border 200ms ease-in-out;
+    transition: width 0.5s ease-in-out, padding 0.5s ease-in-out, background 200ms ease-in-out, border 200ms ease-in-out;
+}
+
+.shopping-cart-btn{
+	-webkit-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+	transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+}
+.shopping-cart-btn .count{
+	-webkit-transition: all 200ms ease-in-out;
+	-moz-transition: all 200ms ease-in-out;
+	-ms-transition: all 200ms ease-in-out;
+	-o-transition: all 200ms ease-in-out;
+	transition: all 200ms ease-in-out;
+}
+.shopping-cart-btn .count:after{
+	-webkit-transition: all 200ms ease-in-out;
+	-moz-transition: all 200ms ease-in-out;
+	-ms-transition: all 200ms ease-in-out;
+	-o-transition: all 200ms ease-in-out;
+	transition: all 200ms ease-in-out;
+}
+.shopping-cart-dropdown{
+	-webkit-transition: -webkit-transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+	-moz-transition: -moz-transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+	-ms-transition: -ms-transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+	-o-transition: -o-transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+	transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+.shopping-cart-dropdown .item a{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;	
+}
+
+
+/*------------------------------------------------------------------
+6. Navigation Types
+-------------------------------------------------------------------*/
+.nav-type-1 .wsmenu-list > li > a{
+	-webkit-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	transition: background 200ms ease-in-out, color 200ms ease-in-out;
+}
+.disbale-sticky-transition .nav-type-1 .wsmenu-list > li > a{
+	-webkit-transition: all 0ms ease-in-out;
+	-moz-transition: all 0ms ease-in-out;
+	-ms-transition: all 0ms ease-in-out;
+	-o-transition: all 0ms ease-in-out;
+	transition: all 0ms ease-in-out;
+}
+.nav-type-1 .wsmenu-list > li > a:after{
+	-webkit-transition: opacity 200ms ease-in-out;
+	-moz-transition: opacity 200ms ease-in-out;
+	-ms-transition: opacity 200ms ease-in-out;
+	-o-transition: opacity 200ms ease-in-out;
+	transition: opacity 200ms ease-in-out;
+}
+.inactive-styles .nav-type-2 .wsmenu-list > li > a{
+	-webkit-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	transition: background 200ms ease-in-out, color 200ms ease-in-out;
+}
+.inactive-styles  disbale-sticky-transition .nav-type-2 .wsmenu-list > li > a{
+	-webkit-transition: all 0ms ease-in-out;
+	-moz-transition: all 0ms ease-in-out;
+	-ms-transition: all 0ms ease-in-out;
+	-o-transition: all 0ms ease-in-out;
+	transition: all 0ms ease-in-out;
+}
+.nav-type-3 .wsmenu-list > li > a{
+	-webkit-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	transition: background 200ms ease-in-out, color 200ms ease-in-out;
+}
+.disbale-sticky-transition .nav-type-3 .wsmenu-list > li > a{
+	-webkit-transition: all 0ms ease-in-out;
+	-moz-transition: all 0ms ease-in-out;
+	-ms-transition: all 0ms ease-in-out;
+	-o-transition: all 0ms ease-in-out;
+	transition: all 0ms ease-in-out;
+}
+.nav-type-3 .wsmenu-list > li > a span:before{
+	-webkit-transition: border 200ms ease-in-out;
+	-moz-transition: border 200ms ease-in-out;
+	-ms-transition: border 200ms ease-in-out;
+	-o-transition: border 200ms ease-in-out;
+	transition: border 200ms ease-in-out;
+}
+
+/*------------------------------------------------------------------
+7. Submenu Types
+-------------------------------------------------------------------*/
+.nav-submenu-type-1 .wsmenu-submenu li a{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+.nav-submenu-type-2 .wsmenu-submenu li a{
+	-webkit-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	transition: background 200ms ease-in-out, color 200ms ease-in-out;
+}
+.nav-submenu-type-3 .wsmenu-submenu li a{
+	-webkit-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	transition: background 200ms ease-in-out, color 200ms ease-in-out;
+}
+.nav-submenu-type-4 .wsmenu-submenu li a{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+.nav-submenu-type-4 .wsmenu-submenu li a .menu-item-textWrap:after{
+	-webkit-transition: opacity 200ms ease-in-out;
+	-moz-transition: opacity 200ms ease-in-out;
+	-ms-transition: opacity 200ms ease-in-out;
+	-o-transition: opacity 200ms ease-in-out;
+	transition: opacity 200ms ease-in-out;
+}
+.nav-submenu-type-5 .wsmenu-submenu li a{
+	-webkit-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	transition: background 200ms ease-in-out, color 200ms ease-in-out;
+}
+.nav-submenu-type-5 .wsmenu-submenu li a .menu-item-textWrap:after{
+	-webkit-transition: opacity 200ms ease-in-out;
+	-moz-transition: opacity 200ms ease-in-out;
+	-ms-transition: opacity 200ms ease-in-out;
+	-o-transition: opacity 200ms ease-in-out;
+	transition: opacity 200ms ease-in-out;
+}
+
+/*------------------------------------------------------------------
+8. Megamenu Types
+-------------------------------------------------------------------*/
+.nav-megamenu-type-1 .megamenu .link-list li.menu-item a{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+.nav-megamenu-type-2 .megamenu .link-list li.menu-item a{
+	-webkit-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	transition: background 200ms ease-in-out, color 200ms ease-in-out;
+}
+.nav-megamenu-type-3 .megamenu .link-list li.menu-item a{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+.nav-megamenu-type-3 .megamenu .link-list li.menu-item a:hover .menu-item-textWrap:after{
+	-webkit-transition: opacity 200ms ease-in-out;
+	-moz-transition: opacity 200ms ease-in-out;
+	-ms-transition: opacity 200ms ease-in-out;
+	-o-transition: opacity 200ms ease-in-out;
+	transition: opacity 200ms ease-in-out;
+}
+.nav-megamenu-type-4 .megamenu .link-list li.menu-item a{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+.nav-megamenu-type-4 .megamenu .link-list li.menu-item a:hover .menu-item-textWrap:after{
+	-webkit-transition: opacity 200ms ease-in-out;
+	-moz-transition: opacity 200ms ease-in-out;
+	-ms-transition: opacity 200ms ease-in-out;
+	-o-transition: opacity 200ms ease-in-out;
+	transition: opacity 200ms ease-in-out;
+}
+
+/*------------------------------------------------------------------
+13. Widgets
+-------------------------------------------------------------------*/
+form.widget-search-form input.search {
+    -webkit-transition: background 200ms ease-in-out, border 200ms ease-in-out;
+    -moz-transition: background 200ms ease-in-out, border 200ms ease-in-out;
+    -ms-transition: background 200ms ease-in-out, border 200ms ease-in-out;
+    -o-transition: background 200ms ease-in-out, border 200ms ease-in-out;
+    transition: background 200ms ease-in-out, border 200ms ease-in-out;
+}
+.widget ul > li > a{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+.widget ul > li > a:before{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;	
+}
+.widget.widget-theme-post ul > li > a{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+.widget-theme-post .date{
+	-webkit-transition: background 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out;
+}
+.widget-theme-post .content .title{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+.widget-theme-post-2 li .icon{
+	-webkit-transition: background 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out;	
+}
+.widget-theme-post-2 li .icon:after{
+	-webkit-transition: border 200ms ease-in-out;
+	-moz-transition: border 200ms ease-in-out;
+	-ms-transition: border 200ms ease-in-out;
+	-o-transition: border 200ms ease-in-out;
+	transition: border 200ms ease-in-out;
+}
+.widget-theme-post-2 .content a{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+.widget-theme-post-2 .view-more-btn{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+.widget-tags a{
+	-webkit-transition: color 200ms ease-in-out, border 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out, border 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out, border 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out, border 200ms ease-in-out;
+	transition: color 200ms ease-in-out, border 200ms ease-in-out;
+}
+.widget-social-icons-2 .icon{
+	-webkit-transition: background 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out;	
+}
+.widget-social-icons-2 .icon .tooltip-container{
+	-webkit-transition: all 0.25s ease-out;
+	-moz-transition: all 0.25s ease-out;
+	-ms-transition: all 0.25s ease-out;
+	-o-transition: all 0.25s ease-out;
+	transition: all 0.25s ease-out;
+}
+.widget-product-categories ul.product-categories-count-2 li a .count{
+	-webkit-transition: background 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out;	
+}
+.widget-product-categories ul.product-categories-count-2 li a .count:after{
+	-webkit-transition: border 200ms ease-in-out;
+	-moz-transition: border 200ms ease-in-out;
+	-ms-transition: border 200ms ease-in-out;
+	-o-transition: border 200ms ease-in-out;
+	transition: border 200ms ease-in-out;
+}
+.widget-products ul.product_list_widget li a img{
+	-webkit-transition: border 200ms ease-in-out;
+	-moz-transition: border 200ms ease-in-out;
+	-ms-transition: border 200ms ease-in-out;
+	-o-transition: border 200ms ease-in-out;
+	transition: border 200ms ease-in-out;
+}
+
+/*------------------------------------------------------------------
+14. Footer
+-------------------------------------------------------------------*/
+#footer .footer-nav-menu ul li a{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+#footer .bottom-section-nav ul li a{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+.bottom-section .text-container a{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+
+/*------------------------------------------------------------------
+15. Front Blog
+-------------------------------------------------------------------*/
+.blog-post .post .post-social-icons .share-btn i{
+	-webkit-transition: background 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out;	
+}
+.blog-post .post .post-social-icons .share-btn i:after{
+	-webkit-transition: border 200ms ease-in-out;
+	-moz-transition: border 200ms ease-in-out;
+	-ms-transition: border 200ms ease-in-out;
+	-o-transition: border 200ms ease-in-out;
+	transition: border 200ms ease-in-out;
+}
+.blog-post .post-meta ul li a{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+.post-type-1 .post-title .subtitle{
+	-webkit-transition: background 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out;	
+}
+.post-type-1 .post-title .date{
+	-webkit-transition: background 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out;	
+}
+.post-type-1 .featured-image .hover-effect{
+	-webkit-transition: opacity 200ms ease-in-out;
+	-moz-transition: opacity 200ms ease-in-out;
+	-ms-transition: opacity 200ms ease-in-out;
+	-o-transition: opacity 200ms ease-in-out;
+	transition: opacity 200ms ease-in-out;
+}
+.post-type-1 .featured-image .hover-effect-btn{
+	-webkit-transition: background 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out;	
+}
+.post-type-1 .post-content .more-link{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+.post-type-2 .featured-image .hover-effect{
+	-webkit-transition: opacity 200ms ease-in-out;
+	-moz-transition: opacity 200ms ease-in-out;
+	-ms-transition: opacity 200ms ease-in-out;
+	-o-transition: opacity 200ms ease-in-out;
+	transition: opacity 200ms ease-in-out;
+}
+.post-type-2 .featured-image .hover-effect-btn{
+	-webkit-transition: background 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out;	
+}
+.post-type-2 .post-contentWrap .post-title a{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+.post-type-2 .post-content .more-link{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;	
+}
+.post-type-3 .post-title .subtitle{
+	-webkit-transition: background 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out;	
+}
+.post-type-3 .date{
+	-webkit-transition: background 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out;
+}
+.post-type-3 .featured-image .hover-effect{
+	-webkit-transition: opacity 200ms ease-in-out;
+	-moz-transition: opacity 200ms ease-in-out;
+	-ms-transition: opacity 200ms ease-in-out;
+	-o-transition: opacity 200ms ease-in-out;
+	transition: opacity 200ms ease-in-out;
+}
+.post-type-3 .featured-image .hover-effect-btn{
+	-webkit-transition: background 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out;	
+}
+.post-type-3 .post-content .more-link{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+.post-type-4 .date{
+	-webkit-transition: background 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out;	
+}
+.post-type-4 .featured-image .hover-effect{
+	-webkit-transition: opacity 200ms ease-in-out;
+	-moz-transition: opacity 200ms ease-in-out;
+	-ms-transition: opacity 200ms ease-in-out;
+	-o-transition: opacity 200ms ease-in-out;
+	transition: opacity 200ms ease-in-out;
+}
+.post-type-4 .featured-image .hover-effect-btn{
+	-webkit-transition: background 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out;	
+}
+.post-type-4 .post-contentWrap .post-title a{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+.post-type-4 .post-content .more-link{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+.pagination-type-1 .pages a{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+.pagination-type-2 .pages a{
+	-webkit-transition: color 200ms ease-in-out, border 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out, border 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out, border 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out, border 200ms ease-in-out;
+	transition: color 200ms ease-in-out, border 200ms ease-in-out;
+}
+.pagination-type-3 .pages a{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+
+/*------------------------------------------------------------------
+16. Blog Post
+-------------------------------------------------------------------*/
+
+.gallery .gallery-item a:after{
+	-webkit-transition: opacity 200ms ease-in-out;
+	-moz-transition: opacity 200ms ease-in-out;
+	-ms-transition: opacity 200ms ease-in-out;
+	-o-transition: opacity 200ms ease-in-out;
+	transition: opacity 200ms ease-in-out;
+}
+.gallery .gallery-item span{
+	-webkit-transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+	-moz-transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+	-ms-transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+	-o-transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+	transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+}
+.single-blog-post .post-social-icons .share-btn i{
+	-webkit-transition: background 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out;
+}
+.single-blog-post .post-social-icons .share-btn i:after{
+	-webkit-transition: border 200ms ease-in-out;
+	-moz-transition: border 200ms ease-in-out;
+	-ms-transition: border 200ms ease-in-out;
+	-o-transition: border 200ms ease-in-out;
+	transition: border 200ms ease-in-out;
+}
+.single-blog-post .post-meta ul li a{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+.comment-list-1 .comment-meta a{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;	
+}
+.comment-list-1 .comment-meta .reply a{
+	-webkit-transition: color 200ms ease-in-out, border 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out, border 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out, border 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out, border 200ms ease-in-out;
+	transition: color 200ms ease-in-out, border 200ms ease-in-out;
+}
+.comment-list-2 .comment-meta .reply a{
+	-webkit-transition: background 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out;
+}
+.comment-list-3 .comment-meta .reply a{
+	-webkit-transition: background 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out;
+}
+.comment-list-3 .comment-meta ul li.author a{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+
+
+/*------------------------------------------------------------------
+17. Portfolio Post
+-------------------------------------------------------------------*/
+.portfolio-post-container .featured-image .hover-effect{
+	-webkit-transition: opacity 200ms ease-in-out;
+	-moz-transition: opacity 200ms ease-in-out;
+	-ms-transition: opacity 200ms ease-in-out;
+	-o-transition: opacity 200ms ease-in-out;
+	transition: opacity 200ms ease-in-out;	
+}
+.portfolio-post-container .featured-image .hover-effect-btn{
+	-webkit-transition: background 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out;
+}
+.portfolio-post-container .portfolio-post-container-title a{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+.portfolio-post-2 .portoflio-post-gallery .hover-effect{
+	-webkit-transition: opacity 200ms ease-in-out;
+	-moz-transition: opacity 200ms ease-in-out;
+	-ms-transition: opacity 200ms ease-in-out;
+	-o-transition: opacity 200ms ease-in-out;
+	transition: opacity 200ms ease-in-out;	
+}
+.portfolio-post-2 .portoflio-post-gallery .hover-effect-btn{
+	-webkit-transition: background 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out;
+}
+.portfolio-post-3 .portfolio-post-featured-image .hover-effect{
+	-webkit-transition: opacity 200ms ease-in-out;
+	-moz-transition: opacity 200ms ease-in-out;
+	-ms-transition: opacity 200ms ease-in-out;
+	-o-transition: opacity 200ms ease-in-out;
+	transition: opacity 200ms ease-in-out;
+}
+.portfolio-post-3 .portfolio-post-featured-image .hover-effect-btn{
+	-webkit-transition: background 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out;
+}
+.portfolio-post-3 .portoflio-post-gallery .hover-effect{
+	-webkit-transition: opacity 200ms ease-in-out;
+	-moz-transition: opacity 200ms ease-in-out;
+	-ms-transition: opacity 200ms ease-in-out;
+	-o-transition: opacity 200ms ease-in-out;
+	transition: opacity 200ms ease-in-out;	
+}
+.portfolio-post-3 .portoflio-post-gallery .hover-effect-btn{
+	-webkit-transition: background 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out;
+}
+
+/*------------------------------------------------------------------
+19. Shop
+-------------------------------------------------------------------*/
+ul.shop-products-1 li.product .review-link{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+ul.shop-products-2 li.product .product-thumbnail a:after{
+	-webkit-transition: border 200ms ease-in-out;
+	-moz-transition: border 200ms ease-in-out;
+	-ms-transition: border 200ms ease-in-out;
+	-o-transition: border 200ms ease-in-out;
+	transition: border 200ms ease-in-out;
+}
+ul.shop-products-2 li.product .product-cat a{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+ul.shop-products-2 li.product .review-link{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+ul.shop-product-category-1 li.product-category .product-categoryWrap{
+	-webkit-transition: border 200ms ease-in-out;
+	-moz-transition: border 200ms ease-in-out;
+	-ms-transition: border 200ms ease-in-out;
+	-o-transition: border 200ms ease-in-out;
+	transition: border 200ms ease-in-out;
+}
+ul.shop-product-category-1 li.product-category h3{
+	-webkit-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	transition: background 200ms ease-in-out, color 200ms ease-in-out;
+}
+ul.shop-product-category-1 li.product-category mark{
+	-webkit-transition: opacity 200ms ease-in-out;
+	-moz-transition: opacity 200ms ease-in-out;
+	-ms-transition: opacity 200ms ease-in-out;
+	-o-transition: opacity 200ms ease-in-out;
+	transition: opacity 200ms ease-in-out;	
+}
+ul.shop-product-category-2 li.product-category .product-category-thumbnail a:after{
+	-webkit-transition: border 200ms ease-in-out;
+	-moz-transition: border 200ms ease-in-out;
+	-ms-transition: border 200ms ease-in-out;
+	-o-transition: border 200ms ease-in-out;
+	transition: border 200ms ease-in-out;
+}
+ul.shop-product-category-2 li.product-category h3{
+	-webkit-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	transition: background 200ms ease-in-out, color 200ms ease-in-out;
+}
+ul.shop-product-category-2 li.product-category mark{
+	-webkit-transition: opacity 200ms ease-in-out;
+	-moz-transition: opacity 200ms ease-in-out;
+	-ms-transition: opacity 200ms ease-in-out;
+	-o-transition: opacity 200ms ease-in-out;
+	transition: opacity 200ms ease-in-out;	
+}
+ul.shop-product-category-3 li.product-category .product-categoryWrap{
+	-webkit-transition: border 200ms ease-in-out;
+	-moz-transition: border 200ms ease-in-out;
+	-ms-transition: border 200ms ease-in-out;
+	-o-transition: border 200ms ease-in-out;
+	transition: border 200ms ease-in-out;
+}
+ul.shop-product-category-3 li.product-category:hover h3{
+	-webkit-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+	transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+}
+ul.shop-product-category-3 li.product-category mark{
+	-webkit-transition: opacity 200ms ease-in-out;
+	-moz-transition: opacity 200ms ease-in-out;
+	-ms-transition: opacity 200ms ease-in-out;
+	-o-transition: opacity 200ms ease-in-out;
+	transition: opacity 200ms ease-in-out;	
+}
+ul.shop-product-category-4 li.product-category .product-contentWrap{
+	-webkit-transition: background 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out;
+}
+ul.shop-product-category-4 li.product-category h3{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+ul.shop-product-category-4 li.product-category mark{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+ul.shop-products-4 li.product .product-content .product-categories a{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+ul.shop-products-4 li.product h3 a{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+ul.shop-products-4 li.product .product-thumbnail-content{
+	-webkit-transition: opacity 200ms ease-in-out;
+	-moz-transition: opacity 200ms ease-in-out;
+	-ms-transition: opacity 200ms ease-in-out;
+	-o-transition: opacity 200ms ease-in-out;
+	transition: opacity 200ms ease-in-out;	
+}
+
+/*------------------------------------------------------------------
+20. Product Post
+-------------------------------------------------------------------*/
+div.product div.thumbnails a:after{
+	-webkit-transition: border 200ms ease-in-out;
+	-moz-transition: border 200ms ease-in-out;
+	-ms-transition: border 200ms ease-in-out;
+	-o-transition: border 200ms ease-in-out;
+	transition: border 200ms ease-in-out;
+}
+div.product .product-rating .review-link{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+div.product .product_meta > span a{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;	
+}
+
+/*------------------------------------------------------------------
+21. Shop Cart
+-------------------------------------------------------------------*/
+table.shop_table a.remove span{
+	-webkit-transition: background 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out;
+}
+table.shop_table td.product-name a{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;	
+}
+
+/*------------------------------------------------------------------
+23. Service Post
+-------------------------------------------------------------------*/
+.service-post-naviagtion li a{
+	-webkit-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+	transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+}
+.service-post-naviagtion li a i{
+	-webkit-transition: opacity 200ms ease-in-out;
+	-moz-transition: opacity 200ms ease-in-out;
+	-ms-transition: opacity 200ms ease-in-out;
+	-o-transition: opacity 200ms ease-in-out;
+	transition: opacity 200ms ease-in-out;	
+}
+.service-post-images a:after{
+	-webkit-transition: opacity 200ms ease-in-out;
+	-moz-transition: opacity 200ms ease-in-out;
+	-ms-transition: opacity 200ms ease-in-out;
+	-o-transition: opacity 200ms ease-in-out;
+	transition: opacity 200ms ease-in-out;	
+}
+.service-post-images a .icon{
+	-webkit-transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+	-moz-transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+	-ms-transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+	-o-transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+	transition: opacity 200ms ease-in-out, background 200ms ease-in-out;	
+}
+
+/*------------------------------------------------------------------
+27. Sticky Navigation
+-------------------------------------------------------------------*/
+.disbale-sticky-transition .nav-sticky a{
+	-webkit-transition: all 0ms ease-in-out;
+	-moz-transition: all 0ms ease-in-out;
+	-ms-transition: all 0ms ease-in-out;
+	-o-transition: all 0ms ease-in-out;
+	transition: all 0ms ease-in-out;
+}
+
+
+/*------------------------------------------------------------------
+28. Back To Top
+-------------------------------------------------------------------*/
+#back-to-top{
+	-webkit-transition: opacity 0.2s ease-out, background 200ms ease-in-out, color 200ms ease-in-out;
+	-moz-transition: opacity 0.2s ease-out, background 200ms ease-in-out, color 200ms ease-in-out;
+	-ms-transition: opacity 0.2s ease-out, background 200ms ease-in-out, color 200ms ease-in-out;
+	-o-transition: opacity 0.2s ease-out, background 200ms ease-in-out, color 200ms ease-in-out;
+	transition: opacity 0.2s ease-out, background 200ms ease-in-out, color 200ms ease-in-out;
+}
+
+/*------------------------------------------------------------------
+1. Form Elements
+-------------------------------------------------------------------*/
+.theme-form {
+	-webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+	-moz-transition: border-color ease-in-out 0.15s, -moz-box-shadow ease-in-out 0.15s;
+	-ms-transition: border-color ease-in-out 0.15s, -ms-box-shadow ease-in-out 0.15s;
+	-o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+	transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+/*------------------------------------------------------------------
+2. Button
+-------------------------------------------------------------------*/
+.btn {
+	-webkit-transition: background 200ms ease-in-out, -webkit-box-shadow 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out, -moz-box-shadow 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out, -ms-box-shadow 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out, box-shadow 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+	transition: background 200ms ease-in-out, box-shadow 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+}
+
+/*------------------------------------------------------------------
+3. Social Media
+-------------------------------------------------------------------*/
+.social-media-element-1 i{
+	-webkit-transition: background 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out;
+}
+.social-media-element-1 i:after{
+	-webkit-transition: border 200ms ease-in-out;
+	-moz-transition: border 200ms ease-in-out;
+	-ms-transition: border 200ms ease-in-out;
+	-o-transition: border 200ms ease-in-out;
+	transition: border 200ms ease-in-out;
+}
+.social-media-element-2 i{
+	-webkit-transition: background 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out;
+}
+.social-media-element-2 i:after{
+	-webkit-transition: border 200ms ease-in-out;
+	-moz-transition: border 200ms ease-in-out;
+	-ms-transition: border 200ms ease-in-out;
+	-o-transition: border 200ms ease-in-out;
+	transition: border 200ms ease-in-out;
+}
+.social-media-element-3{
+	-webkit-transition: -webkit-box-shadow 200ms ease-in-out ;
+	-moz-transition: -moz-box-shadow 200ms ease-in-out;
+	-ms-transition: -ms-box-shadow 200ms ease-in-out;
+	-o-transition: box-shadow 200ms ease-in-out;
+	transition: box-shadow 200ms ease-in-out;
+}
+.social-media-element-3 i{
+	-webkit-transition: background 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out;
+}
+.social-media-element-4{
+	-webkit-transition: -webkit-box-shadow 200ms ease-in-out ;
+	-moz-transition: -moz-box-shadow 200ms ease-in-out;
+	-ms-transition: -ms-box-shadow 200ms ease-in-out;
+	-o-transition: box-shadow 200ms ease-in-out;
+	transition: box-shadow 200ms ease-in-out;
+}
+.social-media-element-4 i{
+	-webkit-transition: background 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out;
+}
+.social-media-element-5{
+	-webkit-transition: background 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out;
+}
+.social-media-element-6{
+	-webkit-transition: background 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out;
+}
+.social-media-element-6 i{
+	-webkit-transition: -webkit-box-shadow 200ms ease-in-out ;
+	-moz-transition: -moz-box-shadow 200ms ease-in-out;
+	-ms-transition: -ms-box-shadow 200ms ease-in-out;
+	-o-transition: box-shadow 200ms ease-in-out;
+	transition: box-shadow 200ms ease-in-out;
+}
+
+
+/*------------------------------------------------------------------
+4. Blockquote
+-------------------------------------------------------------------*/
+.blockquote-element-2 .iconWrap{
+	-webkit-transition: background 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out;
+}
+
+/*------------------------------------------------------------------
+8. Blog Container
+-------------------------------------------------------------------*/
+.blog-container-post-meta ul li a{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;	
+}
+.blog-container-1 .date{
+	-webkit-transition: background 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out;
+}
+.blog-container-1 .blog-container-title a{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;	
+}
+.blog-container-2 .blog-container-title a{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;	
+}
+.blog-container-3 .posted-by a{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+.blog-container-3 .date{
+	-webkit-transition: background 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out;
+}
+.blog-container-3 .blog-container-title a{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;	
+}
+.blog-container-4 .date{
+	-webkit-transition: background 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out;
+}
+.blog-container-4 .blog-container-title a{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;	
+}
+.blog-container-5 .date{
+	-webkit-transition: background 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out;
+}
+.blog-container-5 .blog-container-title a{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;	
+}
+
+/*------------------------------------------------------------------
+9. Testimonial
+-------------------------------------------------------------------*/
+.testimonial-container-1{
+	-webkit-transition: border 200ms ease-in-out;
+	-moz-transition: border 200ms ease-in-out;
+	-ms-transition: border 200ms ease-in-out;
+	-o-transition: border 200ms ease-in-out;
+	transition: border 200ms ease-in-out;
+}
+.testimonial-container-1 p{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;	
+}
+.testimonial-container-2{
+	-webkit-transition: border 200ms ease-in-out;
+	-moz-transition: border 200ms ease-in-out;
+	-ms-transition: border 200ms ease-in-out;
+	-o-transition: border 200ms ease-in-out;
+	transition: border 200ms ease-in-out;
+}
+.testimonial-container-2:hover .content{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;	
+}
+.testimonial-container-4 .testimonial-content{
+	-webkit-transition: color 200ms ease-in-out, border 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out, border 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out, border 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out, border 200ms ease-in-out;
+	transition: color 200ms ease-in-out, border 200ms ease-in-out;
+}
+
+/*------------------------------------------------------------------
+11. Portfolio Element
+-------------------------------------------------------------------*/
+.filter{
+	-webkit-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	transition: background 200ms ease-in-out, color 200ms ease-in-out;
+}
+.portfolio-type-1 .mega-entry .mega-entry-innerwrap{
+	-webkit-transition: -webkit-box-shadow 200ms ease-in-out ;
+	-moz-transition: -moz-box-shadow 200ms ease-in-out;
+	-ms-transition: -ms-box-shadow 200ms ease-in-out;
+	-o-transition: box-shadow 200ms ease-in-out;
+	transition: box-shadow 200ms ease-in-out;
+}
+.portfolio-type-1 .megafolio-container-title{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+.portfolio-type-1 .megafolio-container-categories a{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+.portfolio-type-2 .mega-entry .mega-entry-innerwrap{
+	-webkit-transition: -webkit-box-shadow 200ms ease-in-out ;
+	-moz-transition: -moz-box-shadow 200ms ease-in-out;
+	-ms-transition: -ms-box-shadow 200ms ease-in-out;
+	-o-transition: box-shadow 200ms ease-in-out;
+	transition: box-shadow 200ms ease-in-out;
+}
+.portfolio-type-2 .megafolio-container-title{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+.portfolio-type-2 .megafolio-container-categories a{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+.portfolio-type-3 .mega-entry .mega-entry-innerwrap{
+	-webkit-transition: -webkit-box-shadow 200ms ease-in-out ;
+	-moz-transition: -moz-box-shadow 200ms ease-in-out;
+	-ms-transition: -ms-box-shadow 200ms ease-in-out;
+	-o-transition: box-shadow 200ms ease-in-out;
+	transition: box-shadow 200ms ease-in-out;
+}
+.portfolio-type-3 .megafolio-container-caption{
+	-webkit-transition: opacity 200ms ease-in-out;
+	-moz-transition: opacity 200ms ease-in-out;
+	-ms-transition: opacity 200ms ease-in-out;
+	-o-transition: opacity 200ms ease-in-out;
+	transition: opacity 200ms ease-in-out;	
+}
+.portfolio-type-3 .megafolio-container-title{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+.portfolio-type-3 .megafolio-container-categories a{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+.portfolio-type-3 .megafolio-container-link{
+	-webkit-transition: background 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out;
+}
+.portfolio-type-4 .megafolio-container-caption{
+	-webkit-transition: opacity 200ms ease-in-out;
+	-moz-transition: opacity 200ms ease-in-out;
+	-ms-transition: opacity 200ms ease-in-out;
+	-o-transition: opacity 200ms ease-in-out;
+	transition: opacity 200ms ease-in-out;	
+}
+.portfolio-type-4 .megafolio-container-title{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+.portfolio-type-4 .megafolio-container-categories a{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+.portfolio-type-5 .portfolio-item{
+	-webkit-transition: opacity 200ms ease-in-out;
+	-moz-transition: opacity 200ms ease-in-out;
+	-ms-transition: opacity 200ms ease-in-out;
+	-o-transition: opacity 200ms ease-in-out;
+	transition: opacity 200ms ease-in-out;	
+}
+.portfolio-container-image:after{
+	-webkit-transition: opacity 200ms ease-in-out;
+	-moz-transition: opacity 200ms ease-in-out;
+	-ms-transition: opacity 200ms ease-in-out;
+	-o-transition: opacity 200ms ease-in-out;
+	transition: opacity 200ms ease-in-out;	
+}
+.img-portfolio-container-element-nav{
+	-webkit-transition: opacity 200ms ease-in-out;
+	-moz-transition: opacity 200ms ease-in-out;
+	-ms-transition: opacity 200ms ease-in-out;
+	-o-transition: opacity 200ms ease-in-out;
+	transition: opacity 200ms ease-in-out;	
+}
+.img-portfolio-container-element-nav a{
+	-webkit-transition: background 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out;
+}
+.portfolio-type-5 .portfolio-item .portfolio-container-title{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+.portfolio-type-5 .portfolio-item .portfolio-container-categories a{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;	
+}
+
+/*------------------------------------------------------------------
+12. Team Element
+-------------------------------------------------------------------*/
+.team-element-1 .item .team-element-content{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+.team-element-1 .item{
+	-webkit-transition: background 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out;
+}
+.team-element-1 .item .team-element-contentWrap:after{
+	-webkit-transition: border 200ms ease-in-out;
+	-moz-transition: border 200ms ease-in-out;
+	-ms-transition: border 200ms ease-in-out;
+	-o-transition: border 200ms ease-in-out;
+	transition: border 200ms ease-in-out;
+}
+.team-element-1 .title{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+.team-element-1 .subtitle{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+.team-element-1 .item:hover .sep-element{
+	-webkit-transition: background 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out;
+}
+.team-element-1 .team-element-btn{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+.team-element-1 .team-element-social-media .icon{
+	-webkit-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+	transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+}
+.team-element-2 .team-element-social-media ul{
+	-webkit-transition: opacity 200ms ease-in-out;
+	-moz-transition: opacity 200ms ease-in-out;
+	-ms-transition: opacity 200ms ease-in-out;
+	-o-transition: opacity 200ms ease-in-out;
+	transition: opacity 200ms ease-in-out;	
+}
+.team-element-2 .team-element-social-media .icon{
+	-webkit-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+	transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+}
+
+/*------------------------------------------------------------------
+14. Tabs
+-------------------------------------------------------------------*/
+.tabs-element-1 ul.tabs li a{
+	-webkit-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out, -webkit-border-radius 0ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out, -moz-border-radius 0ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out, -ms-border-radius 0ms ease-in-out;
+	-o-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out, -o-border-radius 0ms ease-in-out;
+	transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out, border-radius 0ms ease-in-out;
+}
+.tabs-element-2 ul.tabs li a{
+	-webkit-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+	transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+}
+.tabs-element-3 ul.tabs li a{
+	-webkit-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out, -webkit-border-radius 0ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out, -moz-border-radius 0ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out, -ms-border-radius 0ms ease-in-out;
+	-o-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out, -o-border-radius 0ms ease-in-out;
+	transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out, border-radius 0ms ease-in-out;
+}
+.tabs-element-4 ul.tabs li a .icon{
+	-webkit-transition: background 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out;
+}
+.tabs-element-5 ul.tabs li a{
+	-webkit-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out, -webkit-border-radius 0ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out, -moz-border-radius 0ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out, -ms-border-radius 0ms ease-in-out;
+	-o-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out, -o-border-radius 0ms ease-in-out;
+	transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out, border-radius 0ms ease-in-out;
+}
+.tabs-element-6 ul.tabs li a{
+	-webkit-transition: background 200ms ease-in-out, border 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out, border 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out, border 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out, border 200ms ease-in-out;
+	transition: background 200ms ease-in-out, border 200ms ease-in-out;
+}
+.tabs-element-7 ul.tabs li a .icon{
+	-webkit-transition: background 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out;
+}
+.tabs-element-8 ul.tabs li a .icon{
+	-webkit-transition: background 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out;
+}
+.tabs-element-8 ul.tabs li a .icon:after{
+	-webkit-transition: border 200ms ease-in-out;
+	-moz-transition: border 200ms ease-in-out;
+	-ms-transition: border 200ms ease-in-out;
+	-o-transition: border 200ms ease-in-out;
+	transition: border 200ms ease-in-out;
+}
+.tabs-element-9 ul.tabs li a .icon{
+	-webkit-transition: background 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out;
+}
+.tabs-element-10 ul.tabs li a{
+	-webkit-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	transition: background 200ms ease-in-out, color 200ms ease-in-out;
+}
+.tabs-element-10 ul.tabs li a:after{
+	-webkit-transition: border 200ms ease-in-out;
+	-moz-transition: border 200ms ease-in-out;
+	-ms-transition: border 200ms ease-in-out;
+	-o-transition: border 200ms ease-in-out;
+	transition: border 200ms ease-in-out;
+}
+.tabs-element-10 ul.tabs li a .icon{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+
+/*------------------------------------------------------------------
+15. Tour
+-------------------------------------------------------------------*/
+
+.tour-element-1 ul.tabs li a{
+	-webkit-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out, -webkit-border-radius 0ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out, -moz-border-radius 0ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out, -ms-border-radius 0ms ease-in-out;
+	-o-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out, -o-border-radius 0ms ease-in-out;
+	transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out, border-radius 0ms ease-in-out;
+}
+.tour-element-2 ul.tabs li a{
+	-webkit-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+	transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+}
+.tour-element-3 ul.tabs li a{
+	-webkit-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out, -webkit-border-radius 0ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out, -moz-border-radius 0ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out, -ms-border-radius 0ms ease-in-out;
+	-o-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out, -o-border-radius 0ms ease-in-out;
+	transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out, border-radius 0ms ease-in-out;
+}
+.tour-element-4 ul.tabs li a{
+	-webkit-transition: background 200ms ease-in-out, border 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out, border 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out, border 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out, border 200ms ease-in-out;
+	transition: background 200ms ease-in-out, border 200ms ease-in-out;
+}
+.tour-element-5 ul.tabs li a{
+	-webkit-transition: background 200ms ease-in-out, border 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out, border 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out, border 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out, border 200ms ease-in-out;
+	transition: background 200ms ease-in-out, border 200ms ease-in-out;
+}
+.tour-element-5 ul.tabs li a .icon{
+	-webkit-transition: background 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out;
+}
+.tour-element-6 ul.tabs li a .icon{
+	-webkit-transition: background 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out;
+}
+.tour-element-7 ul.tabs li a .icon{
+	-webkit-transition: background 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out;
+}
+.tour-element-8 ul.tabs li a .icon{
+	-webkit-transition: background 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out;
+}
+
+
+/*------------------------------------------------------------------
+16. Bulleted List
+-------------------------------------------------------------------*/
+.bulleted-list a{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;	
+}
+.bulleted-list .icon{
+	-webkit-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+	transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+}
+
+/*------------------------------------------------------------------
+17. Media Element
+-------------------------------------------------------------------*/
+.media-element-1 .media-element-1-link{
+	-webkit-transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+	-moz-transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+	-ms-transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+	-o-transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+	transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+}
+.media-element-1 .media-element-1-caption .title{
+	-webkit-transition: background 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out;
+}
+.media-element-1 .media-element-1-hover-effect{
+	-webkit-transition: opacity 200ms ease-in-out;
+	-moz-transition: opacity 200ms ease-in-out;
+	-ms-transition: opacity 200ms ease-in-out;
+	-o-transition: opacity 200ms ease-in-out;
+	transition: opacity 200ms ease-in-out;	
+}
+
+.media-element-2 .media-element-2-link{
+	-webkit-transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+	-moz-transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+	-ms-transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+	-o-transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+	transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+}
+.media-element-2 .media-element-2-caption .title{
+	-webkit-transition: background 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out;
+}
+.media-element-2 .media-element-2-hover-effect{
+	-webkit-transition: opacity 200ms ease-in-out;
+	-moz-transition: opacity 200ms ease-in-out;
+	-ms-transition: opacity 200ms ease-in-out;
+	-o-transition: opacity 200ms ease-in-out;
+	transition: opacity 200ms ease-in-out;	
+}
+
+.media-element-3 .media-element-3-link{
+	-webkit-transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+	-moz-transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+	-ms-transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+	-o-transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+	transition: opacity 200ms ease-in-out, background 200ms ease-in-out;
+}
+.media-element-3 .media-element-3-caption .title{
+	-webkit-transition: background 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out;
+}
+.media-element-3 .media-element-3-hover-effect{
+	-webkit-transition: opacity 200ms ease-in-out;
+	-moz-transition: opacity 200ms ease-in-out;
+	-ms-transition: opacity 200ms ease-in-out;
+	-o-transition: opacity 200ms ease-in-out;
+	transition: opacity 200ms ease-in-out;	
+}
+.media-element-4 .media-element-4-content .title{
+	-webkit-transition: background 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out;
+}
+.media-element-4 .media-element-4-hover-effect{
+	-webkit-transition: opacity 200ms ease-in-out;
+	-moz-transition: opacity 200ms ease-in-out;
+	-ms-transition: opacity 200ms ease-in-out;
+	-o-transition: opacity 200ms ease-in-out;
+	transition: opacity 200ms ease-in-out;	
+}
+.media-element-5 .media-element-content table h4{
+	-webkit-transition: background 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out;
+}
+.media-element-5 .media-element-5-hover-effect{
+	-webkit-transition: background 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out;
+}
+
+/*------------------------------------------------------------------
+19. Tooltip
+-------------------------------------------------------------------*/
+.tooltip .tooltip-container{
+	-webkit-transition: all 0.25s ease-out;
+	-moz-transition: all 0.25s ease-out;
+	-ms-transition: all 0.25s ease-out;
+	-o-transition: all 0.25s ease-out;
+	transition: all 0.25s ease-out;
+}
+
+/*------------------------------------------------------------------
+20. Boxed Elements
+-------------------------------------------------------------------*/
+.boxed-element .iconbox-title{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+.boxed-element .iconbox-sep-element{
+	-webkit-transition: background 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out;	
+}
+.boxed-element .iconbox-extradesign{
+	-webkit-transition: border 200ms ease-in-out;
+	-moz-transition: border 200ms ease-in-out;
+	-ms-transition: border 200ms ease-in-out;
+	-o-transition: border 200ms ease-in-out;
+	transition: border 200ms ease-in-out;
+}
+.boxed-element .iconbox-design{
+	-webkit-transition: background 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out;
+}
+.boxed-element .iconbox-design i{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+.boxed-element .iconbox-design:after{
+	-webkit-transition: border 200ms ease-in-out;
+	-moz-transition: border 200ms ease-in-out;
+	-ms-transition: border 200ms ease-in-out;
+	-o-transition: border 200ms ease-in-out;
+	transition: border 200ms ease-in-out;
+}
+.boxed-element .iconbox-img{
+	-webkit-transition: background 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out;
+}
+.boxed-element .iconbox-img:after{
+	-webkit-transition: border 200ms ease-in-out;
+	-moz-transition: border 200ms ease-in-out;
+	-ms-transition: border 200ms ease-in-out;
+	-o-transition: border 200ms ease-in-out;
+	transition: border 200ms ease-in-out;
+}
+.boxed-element .iconbox-counter{
+	-webkit-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	transition: background 200ms ease-in-out, color 200ms ease-in-out;
+}
+.boxed-element .iconbox-counter-2{
+	-webkit-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	transition: background 200ms ease-in-out, color 200ms ease-in-out;
+}
+.boxed-element .iconbox-counter-3{
+	-webkit-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	transition: background 200ms ease-in-out, color 200ms ease-in-out;
+}
+.boxed-element .iconbox-counter-4{
+	-webkit-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	transition: background 200ms ease-in-out, color 200ms ease-in-out;
+}
+.iconbox-4 .iconbox-img-count span{
+	-webkit-transition: background 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out;
+}
+.iconbox-5 .iconbox-count span{
+	-webkit-transition: background 200ms ease-in-out, border 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out, border 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out, border 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out, border 200ms ease-in-out;
+	transition: background 200ms ease-in-out, border 200ms ease-in-out;
+}
+.iconbox-19{
+	-webkit-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+	transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+}
+.iconbox-20{
+	-webkit-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+	transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+}
+.iconbox-21{
+	-webkit-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+	transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+}
+.iconbox-22{
+	-webkit-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+	transition: background 200ms ease-in-out, border 200ms ease-in-out, color 200ms ease-in-out;
+}
+
+/*------------------------------------------------------------------
+21. Accordion
+-------------------------------------------------------------------*/
+.accordion-element-1 .panel-title a{
+	-webkit-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	transition: background 200ms ease-in-out, color 200ms ease-in-out;
+}
+.accordion-element-1 .panel-title > a .icon-accordion-element{
+	-webkit-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	transition: background 200ms ease-in-out, color 200ms ease-in-out;
+}
+.accordion-element-1 .panel-title a{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+.accordion-element-2 .panel-title > a .icon-accordion-element{
+	-webkit-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	transition: background 200ms ease-in-out, color 200ms ease-in-out;
+}
+.accordion-element-3 .panel-title a{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+.accordion-element-3 .panel-title > a .icon-accordion-element{
+	-webkit-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	transition: background 200ms ease-in-out, color 200ms ease-in-out;
+}
+.accordion-element-4 .panel-title a{
+	-webkit-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	transition: background 200ms ease-in-out, color 200ms ease-in-out;
+}
+.accordion-element-4 .panel-title > a .icon-accordion-element{
+	-webkit-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	transition: background 200ms ease-in-out, color 200ms ease-in-out;
+}
+
+/*------------------------------------------------------------------
+24. Logo Element
+-------------------------------------------------------------------*/
+.logo-element-1 .logo-element-item-link .logo-element-hover{
+	-webkit-transition: opacity 200ms ease-in-out, -webkit-box-shadow 200ms ease-in-out ;
+	-moz-transition: opacity 200ms ease-in-out, -moz-box-shadow 200ms ease-in-out;
+	-ms-transition: opacity 200ms ease-in-out, -ms-box-shadow 200ms ease-in-out;
+	-o-transition: opacity 200ms ease-in-out, box-shadow 200ms ease-in-out;
+	transition: opacity 200ms ease-in-out, box-shadow 200ms ease-in-out;
+}
+.logo-element-2 .logo-element-item-link .logo-element-hover{
+	-webkit-transition: opacity 200ms ease-in-out, -webkit-box-shadow 200ms ease-in-out ;
+	-moz-transition: opacity 200ms ease-in-out, -moz-box-shadow 200ms ease-in-out;
+	-ms-transition: opacity 200ms ease-in-out, -ms-box-shadow 200ms ease-in-out;
+	-o-transition: opacity 200ms ease-in-out, box-shadow 200ms ease-in-out;
+	transition: opacity 200ms ease-in-out, box-shadow 200ms ease-in-out;
+}
+.logo-element-3 .logo-element-item-link .logo-element-hover{
+	-webkit-transition: opacity 200ms ease-in-out, -webkit-box-shadow 200ms ease-in-out ;
+	-moz-transition: opacity 200ms ease-in-out, -moz-box-shadow 200ms ease-in-out;
+	-ms-transition: opacity 200ms ease-in-out, -ms-box-shadow 200ms ease-in-out;
+	-o-transition: opacity 200ms ease-in-out, box-shadow 200ms ease-in-out;
+	transition: opacity 200ms ease-in-out, box-shadow 200ms ease-in-out;
+}
+.logo-element-4 .logo-element-item-link .logo-element-hover{
+	-webkit-transition: opacity 200ms ease-in-out, -webkit-box-shadow 200ms ease-in-out ;
+	-moz-transition: opacity 200ms ease-in-out, -moz-box-shadow 200ms ease-in-out;
+	-ms-transition: opacity 200ms ease-in-out, -ms-box-shadow 200ms ease-in-out;
+	-o-transition: opacity 200ms ease-in-out, box-shadow 200ms ease-in-out;
+	transition: opacity 200ms ease-in-out, box-shadow 200ms ease-in-out;
+}
+.logo-element-5 .logo-element-item{
+	-webkit-transition: -webkit-box-shadow 200ms ease-in-out ;
+	-moz-transition: -moz-box-shadow 200ms ease-in-out;
+	-ms-transition: -ms-box-shadow 200ms ease-in-out;
+	-o-transition: box-shadow 200ms ease-in-out;
+	transition: box-shadow 200ms ease-in-out;
+}
+.logo-element-6 .logo-element-item-link .logo-element-hover{
+	-webkit-transition: opacity 200ms ease-in-out, -webkit-box-shadow 200ms ease-in-out ;
+	-moz-transition: opacity 200ms ease-in-out, -moz-box-shadow 200ms ease-in-out;
+	-ms-transition: opacity 200ms ease-in-out, -ms-box-shadow 200ms ease-in-out;
+	-o-transition: opacity 200ms ease-in-out, box-shadow 200ms ease-in-out;
+	transition: opacity 200ms ease-in-out, box-shadow 200ms ease-in-out;
+}
+
+/*------------------------------------------------------------------
+25. Loop Elements
+-------------------------------------------------------------------*/
+.loop-element-pagination .loop-element-dots .owl-dot{
+	-webkit-transition: background 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out;
+}
+.loop-element-nav-btn .loop-element-nav > div{
+	-webkit-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	transition: background 200ms ease-in-out, color 200ms ease-in-out;	
+}
+.loop-element-carouselWrap .arrow-nav{
+	-webkit-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	transition: background 200ms ease-in-out, color 200ms ease-in-out;
+}
+.loop-logo-element-2 .logo-element-item-link .logo-element-hover{
+	-webkit-transition: opacity 200ms ease-in-out;
+	-moz-transition: opacity 200ms ease-in-out;
+	-ms-transition: opacity 200ms ease-in-out;
+	-o-transition: opacity 200ms ease-in-out;
+	transition: opacity 200ms ease-in-out;	
+}
+.loop-logo-element-3 .logo-element-item-link .logo-element-hover{
+	-webkit-transition: opacity 200ms ease-in-out;
+	-moz-transition: opacity 200ms ease-in-out;
+	-ms-transition: opacity 200ms ease-in-out;
+	-o-transition: opacity 200ms ease-in-out;
+	transition: opacity 200ms ease-in-out;	
+}
+
+/*------------------------------------------------------------------
+26. Counter
+-------------------------------------------------------------------*/
+.counter-element-1{
+	-webkit-transition: background 200ms ease-in-out, border 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out, border 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out, border 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out, border 200ms ease-in-out;
+	transition: background 200ms ease-in-out, border 200ms ease-in-out;
+}
+.counter-element-1 .icon-counterWrap .icon{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+.counter-element-1 .icon-counterWrap .counterWrap{
+	-webkit-transition: border 200ms ease-in-out;
+	-moz-transition: border 200ms ease-in-out;
+	-ms-transition: border 200ms ease-in-out;
+	-o-transition: border 200ms ease-in-out;
+	transition: border 200ms ease-in-out;
+}
+.counter-element-1 .icon-counterWrap .counterWrap .counter{
+	-webkit-transition: background 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out;
+}
+.counter-element-1 .counter-element-title .sep-line{
+	-webkit-transition: border 200ms ease-in-out;
+	-moz-transition: border 200ms ease-in-out;
+	-ms-transition: border 200ms ease-in-out;
+	-o-transition: border 200ms ease-in-out;
+	transition: border 200ms ease-in-out;
+}
+.counter-element-1 .counter-element-title h4{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+.counter-element-2{
+	-webkit-transition: background 200ms ease-in-out, border 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out, border 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out, border 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out, border 200ms ease-in-out;
+	transition: background 200ms ease-in-out, border 200ms ease-in-out;
+}
+.counter-element-2 .icon{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+.counter-element-2 .title-counterWrap .counter{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+.counter-element-2 .title-counterWrap h4{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+.counter-element-3{
+	-webkit-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	transition: background 200ms ease-in-out, color 200ms ease-in-out;
+}
+.counter-element-3 h4{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+.counter-element-3 .icon{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+
+/*------------------------------------------------------------------
+33. Icon Button
+-------------------------------------------------------------------*/
+.icon-button-element-1{
+	-webkit-transition: background 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out;
+}
+.icon-button-element-1 span{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+.icon-button-element-1 .icon.icon-button-icon-style-1{
+	-webkit-transition: color 200ms ease-in-out;
+	-moz-transition: color 200ms ease-in-out;
+	-ms-transition: color 200ms ease-in-out;
+	-o-transition: color 200ms ease-in-out;
+	transition: color 200ms ease-in-out;
+}
+.icon-button-element-1 .icon.icon-button-icon-style-2{
+	-webkit-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	transition: background 200ms ease-in-out, color 200ms ease-in-out;
+}
+
+.icon-button-element-1 .icon.icon-button-icon-style-3{
+	-webkit-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out, color 200ms ease-in-out;
+	transition: background 200ms ease-in-out, color 200ms ease-in-out;
+}
+
+.icon-button-element-1 .icon.icon-button-icon-style-3:after{
+	-webkit-transition: border 200ms ease-in-out;
+	-moz-transition: border 200ms ease-in-out;
+	-ms-transition: border 200ms ease-in-out;
+	-o-transition: border 200ms ease-in-out;
+	transition: border 200ms ease-in-out;
+}
+
+/*------------------------------------------------------------------
+34. Image Frame
+-------------------------------------------------------------------*/
+
+.img-frame-elementWrap:after{
+	-webkit-transition: opacity 200ms ease-in-out;
+	-moz-transition: opacity 200ms ease-in-out;
+	-ms-transition: opacity 200ms ease-in-out;
+	-o-transition: opacity 200ms ease-in-out;
+	transition: opacity 200ms ease-in-out;	
+}
+.img-frame-element-nav{
+	-webkit-transition: opacity 200ms ease-in-out;
+	-moz-transition: opacity 200ms ease-in-out;
+	-ms-transition: opacity 200ms ease-in-out;
+	-o-transition: opacity 200ms ease-in-out;
+	transition: opacity 200ms ease-in-out;	
+}
+.img-frame-element-nav a{
+	-webkit-transition: background 200ms ease-in-out;
+	-moz-transition: background 200ms ease-in-out;
+	-ms-transition: background 200ms ease-in-out;
+	-o-transition: background 200ms ease-in-out;
+	transition: background 200ms ease-in-out;	
+}
